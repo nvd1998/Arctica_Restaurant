@@ -1,0 +1,559 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+._nutslide ul li {
+    list-style-type: none;
+    text-indent: 9999px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid 1px #ffffff;
+}
+
+form {
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+.roboto{
+	font-family: 'Roboto Slab', serif;
+}
+.oswald{
+	font-family: 'Oswald', sans-serif;
+}
+.dancing{
+	font-family: 'Dancing Script', cursive;
+	color: #feb518;
+}
+.chu p {
+    padding-bottom: 37px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+.chu h2 {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+.openingtop{
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    border-right: solid 1px #434343;
+    border-left: solid 1px #434343;
+    padding: 0 40px;
+}
+.datban {
+    float: left;
+    border-left: solid 1px #434343;
+    padding-left: 24px;
+    font-size: 13px;
+    margin-left: 17px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mangxahoi a:nth-child(1) {
+    padding-left: 0px;
+}
+
+.mangxahoi a {
+    color: #dddddd;
+    padding: 13px 14px;
+}
+
+.topheader {
+    height: 40px;
+    background: #222222;
+    color: #dddddd;
+    line-height: 40px;
+}
+.logovamenu{
+	height: 100px;
+}
+.logo{
+	float: left;
+	width: auto;
+	height: 100%;
+}
+.danhmuc{
+	float: right;
+	height: 100px;
+	line-height: 100px;
+}
+.navitem:nth-child(7):hover{
+	background-color: #ffae00;
+	cursor: pointer;
+}
+.navitem{
+	float: left;
+	list-style-type: none;
+	padding-right: 31px;
+}
+.navitem:nth-child(7){
+	padding-right: 0px;
+	background-color: #feb518;
+	height: 45px;
+	margin: 22.5px 0;
+	padding: 0 37px;
+	line-height: 45px;
+}
+.navitem:nth-child(7) .navlink{
+	color: #000000;
+}
+.navlink{
+	color: #777777;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+.navlink:hover{
+	text-decoration: none;
+	color: #000000;
+}
+.slides{
+	height: 650px;	
+	width: 100%;
+}
+.trang{
+	position: relative;
+	height: 650px;
+}
+.chu{
+	position: absolute;
+	margin-left: 375px;
+	margin-top: 155px;
+	color: #ffffff;
+	width: 570px;
+}
+.anhnen{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.nutslide{
+	height: 50px;
+	width: 165px;
+	border: none;
+	border-radius: 0px;
+}
+.dichvuchinh{
+	height: 666px;
+	background: white;
+}
+.khoi{
+	float: left;
+	height: 100%;
+	color: #333333;
+}
+.khoi img{
+	width: 100%;
+	height: 260px;
+	margin-top: 120px;
+	margin-bottom: 30px;
+}
+.chu2{
+	text-align: center;
+	font-size: 14px;
+}
+.chu2 h2{
+	font-size: 20px;
+}
+.chu2 h5 a{
+	text-decoration: none;
+	color: #333333;
+}
+.chu2 h5:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.menuchinh{
+	position: relative;
+	height: 550px;
+	background-image: url("menuchinh.jpg");
+	background-size: cover;
+}
+.tenmenu{
+	text-align: center;
+	padding-top: 225px;
+}
+.tenmenu p:nth-child(1){
+	font-family: 'Dancing Script', cursive;
+	font-size: 38px;
+	color: #feb518;
+	font-weight: bold;
+}
+.tenmenu p:nth-child(2){
+	font-size: 36px;
+	color: #ffffff;
+}
+.tabmenu{
+	text-align: center;
+	padding-top: 140px;
+}
+.tabmenu a{
+	font-size: 16px;
+	margin-right: 35px;
+	text-decoration: none;
+	color: #fefefe;
+}
+.tabmenu a:hover{
+	color: #feb518;
+}
+.tabmenu a.act1{
+	color: #feb518;
+}
+.menulist{
+	height: 770px;
+	width: 100%;
+}
+.list_items{
+	height: 90px;
+	width: 100%;
+	margin: 10px 0px;
+}
+.anhmonan{
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 20px;
+}
+.ten_mon_an{
+	height: 100%;
+}
+.ten_mon_an p:nth-child(1){
+	font-size: 14px;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 16px;
+	margin: 0px;
+}.ten_mon_an p:nth-child(2){
+	font-size: 13px;
+	margin: 0px;
+}
+.bang1{
+	float: left;
+	padding: 120px 0px;
+	padding-right: 15px;
+}
+.bang2{
+	float: left;
+	padding: 120px 0px;
+	padding-left: 15px;
+}
+.hotpick{
+	height: 650px;
+	background: #242424;
+	width: 100%;
+	margin: auto;
+	padding:0;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.cangiua{
+	position: absolute;
+	height: 100%;
+	width: auto;
+	margin: auto;
+	padding: 0;
+}
+.nhan{
+	color: white;
+	padding: 45px 0px 45px 375px;
+	margin: 0px;
+	font-size: 24px;
+}
+.hp-items{
+	color: white;
+	width: 360px;
+	float: left;
+	margin: 7.5px;
+	position: relative;
+}
+.hp-items img{
+	width: 100%;
+	height: 400px;
+}
+.hp-items h1{
+	font-size: 17px;
+	position: relative;
+	margin-top: 25px;
+	font-weight: bolder;
+}
+.hp-items h2{
+	font-size: 14px;
+}
+.hp-items p{
+	font-size: 17px;
+	float: right;
+	display: inline-block;
+	margin-top: -20px;
+}
+.hp-items:hover{
+	cursor: pointer;
+	color: #feb518;
+}
+.daubep{
+	height: 690px;
+	background-color: #f9f9f9;
+}
+.text-daubep{
+	padding-top: 268px;
+}
+.text-daubep h1{
+	font-size: 30px;
+}
+.text-daubep h2{
+	font-size: 31px;
+}
+.text-daubep p{
+	font-size: 14px;
+}
+.avatar{
+	float: left;
+	height: 100%;
+}
+.socialbutton a{
+	color: white;
+}
+.socialbutton a i{
+	line-height: 39px;
+	font-size: 15px;
+	text-align: center;
+	width: 39px;
+	background-color: #333333;
+	border-radius: 3px;
+	margin-right: 8px;
+}
+.socialbutton a i:hover{
+	background-color: black;
+}
+.atm{
+	height: 550px;
+	background-image: url("images/atm.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+.text-atm{
+	height: 100%;
+	text-align: center;
+	padding: 233px 0px;
+}
+.atm h1{
+	font-size: 38px;
+	font-weight: bold;
+}
+.atm h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.reservation{
+	height: 885px;
+}
+.text-datban{
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 60px;
+	border-bottom: solid 0.5px #777777c8;
+}
+.text-datban h1{
+	font-size: 26px;
+	font-weight: bold;
+}
+.text-datban p{
+	font-size: 14px;
+}
+.text-datban h2{
+	font-size: 25px;
+	font-weight: bolder;
+}
+.chuvang{
+	color: #feb518;
+}
+.input-datban{
+	padding: 18px;
+	height: 45px;
+	width: 275px;
+	margin: 15px 0;
+	border: solid 1px #77777769;
+}
+.form-datban h1{
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.nut-submit{
+	background: #feb518;
+	width: 160px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	border: none;
+	margin-top: 35px;
+	text-align: center;
+}
+.nut-submit:hover{
+	cursor: pointer;
+	background: #ffae00;
+}
+.form-datban{
+	padding:0;
+}
+.input-giua{
+	margin: 0px 40px;
+}
+input[type="date"]{
+	background: #ffffff url("images/calendar.png") no-repeat 92% 50%;
+}
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+  	opacity: 0;
+	cursor: pointer;
+}
+input[type="date"]::-webkit-calendar-picker-indicator:hover{
+	cursor: pointer;
+}
+input[type="time"]::-webkit-inner-spin-button { 
+    margin-top: -8px;
+}
+.slogan{
+	height: 500px;
+	position: relative;
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+.slogan.anhquote img{
+	height: 100%;
+	width: auto;
+	position: absolute;
+}
+.slogan ul li.sl{
+	opacity: 0;
+	height: 0;
+}
+.text-slogan{
+	padding-top: 105px;
+}
+.text-slogan img{
+	height: 40px;
+	width: 40px;
+}
+.text-slogan h1{
+	margin-top: 95px;
+	font-size: 18px;
+	color: #f6f6f6;
+	opacity: 0;
+}
+.text-slogan h2{
+	font-size: 29px;
+	color: #feb518;
+	font-weight: bold; 
+	margin-top: 30px;
+	margin-bottom: 50px;
+	opacity: 0;
+}
+._nutslide{
+	position: absolute;
+	color: white;
+	width: 100%;
+	bottom: 1%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+._nutslide ul li{
+	float: left;
+	margin: 0px 10px;
+}
+._nutslide ul li:hover{
+	background: #feb518;
+	cursor: pointer;
+}
+.slidebot_1{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url("images/slidebot1.jpg");
+	background-size: cover;
+}
+.slidebot_2{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url("images/slidebot2.jpg");
+	background-size: cover;
+}
+.slidebot_3{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url("images/slidebot3.jpg");
+	background-size: cover;
+}
+.slogan ul li.activebot{
+	transition: 2s;
+	opacity: 1;
+}
+._nutslide ul li.active_btn{
+	background: #feb518;
+}
+.cacslide ul li.activebot .text-slogan h1,
+.cacslide ul li.activebot .text-slogan h2{
+	animation: 1s chudixuong forwards;
+}
+.slogan ul li.activebot .text-slogan h1{
+	animation-delay: 0.5s;
+}
+.slogan ul li.activebot .text-slogan h2{
+	animation-delay: 0.3s;
+}
+@-webkit-keyframes chudixuong{
+	from{
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 576px){
+		*{}
+		.topheader{
+			height: auto;
+		}
+		.datban,.openingtop{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			text-align: center;
+			border: none;
+		}
+		.mangxahoi a:nth-child(1) {
+    		padding-left: 14px;
+		}
+		.logo{
+			width: 100%;
+			text-align: center;
+		}
+		.navitem{
+			display: block;
+			width: 100%;
+			text-align: center;
+			list-style-type: none;
+			padding: 0px;
+		}
+}
